@@ -61,3 +61,35 @@ void loop() {
 }
 
 圖如下：![image](https://github.com/EN-PEN/LED-1-TO-4/blob/master/IMG20200915111230.jpg)
+
+加分題: 
+
+😠😠😠😠😠😠😠😠
+😠😠😠😠😠😠😠😡
+😠😠😠😠😠😠😡😠
+😠😠😠😠😠😡😠😠
+😠😠😠😠😡😠😠😠
+😠😠😠😡😠😠😠😠
+😠😠😡😠😠😠😠😠
+😠😡😠😠😠😠😠😠
+😡😠😠😠😠😠😠😠
+
+int LED=10;
+void setup() {
+ for (int i=2 ;i<10;i++)
+ pinMode(i,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for(int i=2; i<10; i++)
+    digitalWrite(i,HIGH);
+    
+  if (LED>=10)
+   digitalWrite(LED,LOW);
+     
+  else
+    LED=1;
+    LED++;
+   delay(200);
+}
