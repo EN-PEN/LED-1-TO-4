@@ -27,7 +27,7 @@ void loop() {
    delay(200);
 }
 
-圖如下：
+圖如下：![image]()
 
 
 題目2:(1~8)
@@ -60,4 +60,4 @@ void loop() {
    delay(200);
 }
 
-圖如下：
+圖如下：![image](https://github.com/EN-PEN/LED-1-TO-4/blob/master/IMG20200915111230.jpg)
