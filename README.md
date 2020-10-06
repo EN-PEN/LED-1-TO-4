@@ -6,27 +6,27 @@
 😠😠😡😠
 😠😠😠😡
 如下:
+```C++
+int LED=5;(初始值)<br>
+void setup() {<br>
+ for (int i=2 ;i<6;i++)(For迴圈設定2~6層遞)<br>
+ pinMode(i,OUTPUT);(設定輸出腳)<br>
+}<br>
 
-int LED=5;(初始值)
-void setup() {
- for (int i=2 ;i<6;i++)(For迴圈設定2~6層遞)
- pinMode(i,OUTPUT);(設定輸出腳)
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  for(int i=5; i>1; i--)(設定遞增)
-    digitalWrite(i,HIGH);(亮)
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+  for(int i=5; i>1; i--)(設定遞增)<br>
+    digitalWrite(i,HIGH);(亮)<br>
     
-  if (LED>=2)
-   digitalWrite(LED,LOW);(滅)
+  if (LED>=2)<br>
+   digitalWrite(LED,LOW);(滅)<br>
      
-  else(重置)
-    LED=6;
-    LED--;
-   delay(200);
-}
-
+  else(重置)<br>
+    LED=6;<br>
+    LED--;<br>
+   delay(200);<br>
+}<br>
+```
 圖如下：![image](https://github.com/EN-PEN/LED-1-TO-4/blob/master/IMG20200915111514.jpg)
 
 
@@ -40,26 +40,27 @@ void loop() {
 😠😠😠😠😠😡😠😠
 😠😠😠😠😠😠😡😠
 😠😠😠😠😠😠😠😡
-int LED=10;(設定初始值)
-void setup() {
- for (int i=2 ;i<10;i++)(for設定層遞2~10)
- pinMode(i,OUTPUT);(設定輸出腳)
-}
+```C++
+int LED=10;(設定初始值)<br>
+void setup() {<br>
+ for (int i=2 ;i<10;i++)(for設定層遞2~10)<br>
+ pinMode(i,OUTPUT);(設定輸出腳)<br>
+}<br>
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  for(int i=10; i>1; i--)
-    digitalWrite(i,HIGH);(亮)
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+  for(int i=10; i>1; i--)<br>
+    digitalWrite(i,HIGH);(亮)<br>
     
-  if (LED>=0)
-   digitalWrite(LED,LOW);(滅)
+  if (LED>=0)<br>
+   digitalWrite(LED,LOW);(滅)<br>
      
-  else
-    LED=10;
-    LED--;
-   delay(200);
-}
-
+  else<br>
+    LED=10;<br>
+    LED--;<br>
+   delay(200);<br>
+}<br>
+```
 圖如下：![image](https://github.com/EN-PEN/LED-1-TO-4/blob/master/IMG20200915111230.jpg)
 
 加分題: 
@@ -73,23 +74,24 @@ void loop() {
 😠😠😡😠😠😠😠😠
 😠😡😠😠😠😠😠😠
 😡😠😠😠😠😠😠😠
+```C++
+int LED=10;<br>
+void setup() {<br>
+ for (int i=2 ;i<10;i++)<br>
+ pinMode(i,OUTPUT);<br>
+}<br>
 
-int LED=10;
-void setup() {
- for (int i=2 ;i<10;i++)
- pinMode(i,OUTPUT);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  for(int i=2; i<10; i++)
-    digitalWrite(i,HIGH);
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+  for(int i=2; i<10; i++)<br>
+    digitalWrite(i,HIGH);<br>
     
-  if (LED>=10)
-   digitalWrite(LED,LOW);
+  if (LED>=10)<br>
+   digitalWrite(LED,LOW);<br>
      
-  else
-    LED=1;
-    LED++;
-   delay(200);
-}
+  else<br>
+    LED=1;<br>
+    LED++;<br>
+   delay(200);<br>
+}<br>
+```
